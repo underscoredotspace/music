@@ -3,13 +3,17 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node --version && parcel serve src/index.html",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./ --no-source-maps"
+    "build": "NODE_ENV=production parcel build src/index.html"
   },
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@tsconfig/recommended": "^1.0.1",
+    "@tsconfig/create-react-app": "^1.0.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "node": "^14.16.0",
-    "parcel": "1.12.3",
+    "parcel": "^2.0.0-beta.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "tone": "^14.7.77",
     "typescript": "^4.2.2"
   },
