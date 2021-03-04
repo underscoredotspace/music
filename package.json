@@ -2,12 +2,12 @@
   "name": "music",
   "version": "0.0.1",
   "scripts": {
-    "start": "parcel serve src/index.html",
+    "start": "node --version && parcel serve src/index.html",
     "build": "NODE_ENV=production parcel build src/index.html --public-url ./ --no-source-maps"
   },
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@tsconfig/node14": "^1.0.0",
+    "@tsconfig/recommended": "^1.0.1",
     "node": "^14.16.0",
     "parcel": "1.12.3",
     "tone": "^14.7.77",
